@@ -21,14 +21,18 @@
     "url": "https://github.com/zrrrzzt/skoleruta-vtfk/issues"
   },
   "homepage": "https://github.com/zrrrzzt/skoleruta-vtfk#readme",
-  "engines": {
-    "node": ">=12.18.4"
-  },
   "devDependencies": {
     "ava": "3.13.0",
     "standard": "14.3.4"
   },
   "dependencies": {
     "@alheimsins/virkedager": "1.2.4"
-  }
+  },
+  "engines": {
+    "node": ">=12.18.4"
+  },
+  "files": [
+    "lib/",
+    "index.js"
+  ]
 }
