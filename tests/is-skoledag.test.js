@@ -1,5 +1,5 @@
 const test = require('ava')
-const isSkoledag = require('./is-skoledag')
+const isSkoledag = require('../lib/is-skoledag')
 
 test('it needs a date object', t => {
   const today = 'date'
