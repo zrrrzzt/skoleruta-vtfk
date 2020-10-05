@@ -9,6 +9,7 @@
     "lint": "standard",
     "lint:fix": "standard --fix",
     "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm i"
   },
   "repository": {
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/zrrrzzt/skoleruta-vtfk#readme",
   "devDependencies": {
     "ava": "3.13.0",
+    "coveralls": "3.1.0",
     "nyc": "15.1.0",
     "standard": "14.3.4"
   },
