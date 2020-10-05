@@ -1,8 +1,4 @@
-const { isVirkedag } = require('@alheimsins/virkedager')
-
-const isSkoledag = () => {
-  return true
-}
+const isSkoledag = require('./lib/is-skoledag')
 
 module.exports = {
   isSkoledag
