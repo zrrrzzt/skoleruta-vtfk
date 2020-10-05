@@ -1,0 +1,34 @@
+{
+  "name": "skoleruta-vtfk",
+  "version": "1.0.0",
+  "description": "Skoleruta for Vestfold og Telemark fylkeskommune",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava -v",
+    "watch:test": "ava -v -w",
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zrrrzzt/skoleruta-vtfk.git"
+  },
+  "keywords": [],
+  "author": "Geir Gåsodden <geir.gasodden@pythonia.no> (https://github.com/zrrrzzt)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zrrrzzt/skoleruta-vtfk/issues"
+  },
+  "homepage": "https://github.com/zrrrzzt/skoleruta-vtfk#readme",
+  "engines": {
+    "node": ">=12.18.4"
+  },
+  "devDependencies": {
+    "ava": "3.13.0",
+    "standard": "14.3.4"
+  },
+  "dependencies": {
+    "@alheimsins/virkedager": "1.2.4"
+  }
+}
