@@ -8,6 +8,7 @@
     "watch:test": "ava -v -w",
     "lint": "standard",
     "lint:fix": "standard --fix",
+    "coverage": "nyc ava",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm i"
   },
   "repository": {
@@ -23,6 +24,7 @@
   "homepage": "https://github.com/zrrrzzt/skoleruta-vtfk#readme",
   "devDependencies": {
     "ava": "3.13.0",
+    "nyc": "15.1.0",
     "standard": "14.3.4"
   },
   "dependencies": {
