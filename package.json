@@ -33,7 +33,7 @@
     "@alheimsins/virkedager": "1.2.4"
   },
   "engines": {
-    "node": ">=12.18.4"
+    "node": ">=12.19.0"
   },
   "files": [
     "lib/",
