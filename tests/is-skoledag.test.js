@@ -10,11 +10,6 @@ test('it needs a date object', t => {
   t.is(error.message, 'You must input a date object')
 })
 
-test('it uses today if no input is given', t => {
-  const check = isSkoledag() ? true : true
-  t.is(check, true, 'Today is okay')
-})
-
 test('it returns true for monday 28. september 2020', t => {
   const today = new Date('2020-09-28')
   t.is(isSkoledag(today), true, 'september 28. is okay')
