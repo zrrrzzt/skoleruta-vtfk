@@ -11,7 +11,7 @@ test('it needs a date object', t => {
 })
 
 test('it uses today if no input is given', t => {
-  const check = isSkoledag() ? true : true 
+  const check = isSkoledag() ? true : true
   t.is(check, true, 'Today is okay')
 })
 
