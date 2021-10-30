@@ -1,6 +1,6 @@
 {
   "name": "skoleruta-vtfk",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Skoleruta for Vestfold og Telemark fylkeskommune",
   "main": "index.js",
   "scripts": {
