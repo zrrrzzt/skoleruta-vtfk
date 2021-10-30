@@ -34,3 +34,18 @@ test('it returns false for 21. june 2021', t => {
   const today = new Date('2021-06-21')
   t.is(isSkoledag(today), false, '21. june 2021 ok')
 })
+
+test('it returns false for 12. october 2021', t => {
+  const today = new Date('2021-10-12')
+  t.is(isSkoledag(today), false, '12. october 2021 ok')
+})
+
+test('it returns true for 22. december 2021', t => {
+  const today = new Date('2021-12-22')
+  t.is(isSkoledag(today), true, '22. december 2021 ok')
+})
+
+test('it returns false for 19. may 2023', t => {
+  const today = new Date('2023-05-19')
+  t.is(isSkoledag(today), false, '19. may 2023 ok')
+})
