@@ -30,7 +30,7 @@
     "standard": "16.0.4"
   },
   "dependencies": {
-    "@alheimsins/virkedager": "2.1.1"
+    "@alheimsins/virkedager": "2.2.0"
   },
   "engines": {
     "node": ">=14.18.1"
